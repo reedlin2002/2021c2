@@ -2,7 +2,7 @@
 #include <string.h>
 char line[1000];
 char tableA[]="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
-char tableB[]="A   3  HIL JM O   2TUVWXY21SE Z  8 ";
+char tableB[]="A   3  HIL JM O   2TUVWXY51SE Z  8 ";
 char mirror_char( char c )
 {
     for(int i=0; tableA[i]!=0; i++)
