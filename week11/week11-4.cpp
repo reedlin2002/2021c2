@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>//¡u¸ê®Æµ²ºc¡Bºtºâªk¡vªººtºâªk
+#include <algorithm>//ã€Œè³‡æ–™çµæ§‹ã€æ¼”ç®—æ³•ã€çš„æ¼”ç®—æ³•
 using namespace std;
 class student
 {
@@ -22,6 +22,7 @@ int main()
         cin >> stu[i].name >> stu[i].grade;
     }
 
+    stable_sort(stu.begin(), stu.end(), compare);
     for(int i=0;i<N;i++)
     {
         cout << stu[i].name << " " << stu[i].grade << endl;
